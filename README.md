@@ -1,16 +1,87 @@
-# React + Vite
+# Modern SaaS / AI Tool Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive SaaS dashboard frontend built with **React** and **Vite**. This project brings together an AI content generator interface, document summary interface, analytics, activity history, and account settings in one application.
 
-Currently, two official plugins are available:
+**Live Demo:** [View Live Project](https://modern-saas-ai-tool-landing-page.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**GitHub Repository:** [View Source Code](https://github.com/RohitKudtarkar/modern-saas-ai-tool-landing-page)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Dashboard:** Overview of the application's main sections and activity.
+- **AI Content Generator:** Interface for generating and previewing AI content.
+- **Document Summary:** Interface for document summarization.
+- **Analytics:** Dashboard displaying activity and usage information.
+- **History:** View previously saved activity.
+- **Settings:** Manage application preferences.
+- **Authentication UI:** Login and signup pages.
+- **Responsive Design:** User interface designed for different screen sizes.
+- **Client-side Navigation:** Navigate between pages using React Router.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- React Router
+- Lucide React
+
+## Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/RohitKudtarkar/modern-saas-ai-tool-landing-page.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd modern-saas-ai-tool-landing-page
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## Demo Limitations
+
+This project is a frontend portfolio demonstration.
+
+- AI content generation and document summarization are interface demonstrations; they are not connected to a live AI service.
+- Login and signup are not connected to a production authentication system.
+- History uses browser local storage for demonstration purposes.
+- No production backend or database is included.
+
+## Deployment
+
+Deployed on Vercel.
+
+## Author
+
+**Rohit Kudtarkar**
+
+Frontend Developer | React Developer | UI/UX Designer
+
+- **GitHub Profile:** [RohitKudtarkar](https://github.com/RohitKudtarkar)
