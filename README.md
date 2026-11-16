@@ -1,4 +1,4 @@
-# Modern SaaS / AI Tool Dashboard
+# Modern SaaS / AI Tool Landing Page
 
 A modern, responsive SaaS dashboard frontend built with **React** and **Vite**. This project brings together an AI content generator interface, document summary interface, analytics, activity history, and account settings in one application.
 
